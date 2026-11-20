@@ -26,12 +26,14 @@ targets:
       path: YourPHRCompanion/Info.plist
       properties:
         NSHealthShareUsageDescription: YourPHR Companion reads heart rate, blood pressure, sleep, steps, weight, oxygen saturation, and body temperature from Apple Health so it can send those samples to your YourPHR instance. Nothing is written back to Apple Health.
+        NSHealthUpdateUsageDescription: YourPHR Companion does not add, edit, or delete anything in Apple Health. It only reads heart rate, blood pressure, sleep, steps, weight, oxygen saturation, and body temperature so it can send those samples to your YourPHR instance.
         NSCameraUsageDescription: Camera access is used only to scan the pairing QR code shown in YourPHR.
         NSLocalNetworkUsageDescription: YourPHR Companion connects to your YourPHR server on the local network to pair this phone and send health samples.
         NSBonjourServices:
           - _yourphr._tcp
         UIBackgroundModes:
           - fetch
+        UILaunchScreen: {}
         BGTaskSchedulerPermittedIdentifiers:
           - org.yourphr.companion.refresh
         CFBundleURLTypes:

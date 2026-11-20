@@ -48,9 +48,13 @@
 	<string>YourPHR Companion connects to your YourPHR server on the local network to pair this phone and send health samples.</string>
 	<key>NSHealthShareUsageDescription</key>
 	<string>YourPHR Companion reads heart rate, blood pressure, sleep, steps, weight, oxygen saturation, and body temperature from Apple Health so it can send those samples to your YourPHR instance. Nothing is written back to Apple Health.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>YourPHR Companion does not add, edit, or delete anything in Apple Health. It only reads heart rate, blood pressure, sleep, steps, weight, oxygen saturation, and body temperature so it can send those samples to your YourPHR instance.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>
 	</array>
+	<key>UILaunchScreen</key>
+	<dict/>
 </dict>
 </plist>
