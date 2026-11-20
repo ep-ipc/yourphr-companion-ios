@@ -1,6 +1,6 @@
 name: YourPHRCompanion
 options:
-  bundleIdPrefix: org.yourphr
+  bundleIdPrefix: com.iplusconnect
   deploymentTarget:
     iOS: "16.0"
   createIntermediateGroups: true
@@ -48,7 +48,7 @@ targets:
         com.apple.developer.healthkit.background-delivery: true
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: org.yourphr.companion
+        PRODUCT_BUNDLE_IDENTIFIER: com.iplusconnect.companion
         PRODUCT_NAME: YourPHRCompanion
         MARKETING_VERSION: "0.1.0"
         CURRENT_PROJECT_VERSION: "1"
@@ -71,7 +71,7 @@ targets:
       - target: YourPHRCompanion
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: org.yourphr.companion.tests
+        PRODUCT_BUNDLE_IDENTIFIER: com.iplusconnect.companion.tests
         GENERATE_INFOPLIST_FILE: true
         CODE_SIGN_STYLE: Automatic
         DEVELOPMENT_TEAM: ""

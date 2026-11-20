@@ -17,7 +17,7 @@ xcodegen generate
 open YourPHRCompanion.xcodeproj
 ```
 
-In Xcode: select the **YourPHRCompanion** target → Signing & Capabilities → choose your Personal Team. The bundle id is `org.yourphr.companion`.
+In Xcode: select the **YourPHRCompanion** target → Signing & Capabilities → choose your Personal Team. The bundle id is `com.iplusconnect.companion`.
 
 ### 2. Pair with YourPHR
 
